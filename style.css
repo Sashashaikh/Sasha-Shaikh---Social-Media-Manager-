@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.section{
+    padding:80px 0;
+}
+
+
+.dropdown{
+    background-color: rgb(227, 227, 227);
+}
+
+
+
+
+
+/* **************NAVBAR***************** */
+
+ul.dropdown-menu.show
+{
+    background-color: rgb(227, 227, 227);
+}
+
+
+
+/* ***************** HEADER *******************/
+
+
+header{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.088), rgba(0, 0, 0, 0.7)), url(css/img/header-3.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+.header-text{
+    position: absolute;
+    top: 75%;
+    text-align: center;
+    left: 35%;
+}
+h1{
+    color: #fff;
+    font-family: 'lato','san-serif';
+    font-weight: 300;
+    word-spacing: 4px;
+    letter-spacing: 2px;;
+}
+
+.btn{
+    margin-right: 10px;
+    padding: 30px;
+}
+    
+.btn a {
+    text-decoration: none;
+}
+/* 
+.nav-text{
+    list-style: none;
+    color: #fff;
+    font-family:'lato','san-serif';
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    font-size: large;
+    border-bottom: 2px solid white;
+    display: inline-block;
+} */
+
+
+/*  *************************CARDS****************** */
+.card-box{
+    text-align: center;
+    padding: 40px 0;
+     background-color: #eeeee4 ; 
+    /* background-color: #FF9DD5; */
+
+}
+
+ .card{
+    width: 300px;
+    padding: 40px;
+    display: inline-block !important;
+    margin-bottom: 20px;;
+} 
+
+.card-center{
+    margin: 40px 40px;
+    
+}
+
+
+
+
+
+.card-img-top{
+    width: 200px;
+    height: 200px;
+   
+    
+}
+
+.cut{
+    opacity: calc(0);
+}
+
+/* ******************INFO***************** */
+
+
+h2{
+    text-align: center;
+    padding-bottom:30px; 
+    font-weight: 900;
+    
+   
+}
+
+.info{
+    padding: 100px;
+    background-color:rgba(236, 235, 235, 0.785);
+  
+    
+}
+.para{
+   
+    padding: 40px 50px;
+}
+.para1{
+    font-size: larger;
+    font-weight: 500;
+   
+    word-spacing: 4px;
+}
+
+.services{
+    background-color:#eeeee4  ;
+    padding-top: 20px;
+}
+
+/* **************FOOTER************ */
+
+footer{
+    background-color: #333;
+    text-align: center;
+}
+
+.Contact{
+    
+    padding: 40px;
+    
+}
+
+ul.social-links{
+    
+    list-style: none;
+    display: inline-block;
+   
+    
+    
+}
+
+.social-links li{
+    display: inline-block;
+    
+}
+
+.bi{
+    font-size: 30px;
+    margin-right: 40px;
+    color: #fff;
+}
+
+.developer{
+        text-align: center;
+
+}
+
+.bi-instagram:hover{
+    color:#8a3ab9;
+}
+
+.bi-facebook:hover{
+    color: #3b5998;
+}
+
+.bi-envelope-at-fill:hover{
+    color:#BB001B;
+}
+
+.bi-linkedin:hover{
+    color: #0A66C2;
+}
+
+/* https://socialgirlmagic.com/ */
+
+@media only screen and (max-width:480px)
+{
+    section.info{
+        padding: 30px;
+    }
+    .para{
+        padding: 5px;
+    }
+    .para1{
+        font-size: small;
+       
+    }
+
+    .header-text{
+        position: absolute;
+        top: 70%;
+        text-align: center;
+        left: 10%;
+    }
+}
